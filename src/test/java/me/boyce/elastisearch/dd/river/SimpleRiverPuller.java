@@ -1,4 +1,4 @@
-package com.dzh.elastisearch.dd.river;
+package me.boyce.elastisearch.dd.river;
 
 import java.io.BufferedReader;
 import java.io.IOException;

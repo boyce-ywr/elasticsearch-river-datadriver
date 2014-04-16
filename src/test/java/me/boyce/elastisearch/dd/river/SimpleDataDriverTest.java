@@ -1,4 +1,4 @@
-package com.dzh.elastisearch.dd.river;
+package me.boyce.elastisearch.dd.river;
 
 import java.util.HashMap;
 import java.util.Map;
