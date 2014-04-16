@@ -1,5 +1,6 @@
 # ElasticSearch 数据驱动插件
-@Author 杨伟荣
+
+@Author boyce
 
 @Contact boyce.ywr@gmail.com
 
@@ -76,7 +77,7 @@ curl -XPUT 'localhost:9200/_river/river_dd_shequ/_meta' -d '{
 		"mappings":{	// 各type类型数据的mapping设置，强烈建议为每一个type都指定mapping！
 			"user": {
 				"_meta": {
-					"author": "KunBetter"
+					"author": "boyce"
 				},
 				"_all": {
 					"enabled": true,
@@ -164,7 +165,7 @@ curl -XPUT 'localhost:9200/_river/river_dd_shequ/_meta' -d '{
 			},
 			"stock": {
 				"_meta": {
-					"author": "KunBetter"
+					"author": "boyce"
 				},
 				"_all": {
 					"enabled": true,
@@ -196,7 +197,7 @@ curl -XPUT 'localhost:9200/_river/river_dd_shequ/_meta' -d '{
 			},
 			"weibo": {
 				"_meta": {
-					"author": "KunBetter"
+					"author": "boyce"
 				},
 				"_all": {
 					"enabled": true,
